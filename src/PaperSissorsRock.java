@@ -24,14 +24,14 @@ public static void main(String[] args)
     computerInt = generator.nextInt(3)+1; 
 
     
-
+    switch (computerInt){}
     if (computerInt == 1) 
        computerPlay = "R"; 
     else if (computerInt == 2) 
        computerPlay = "P"; 
     else if (computerInt == 3) 
        computerPlay = "S"; 
-
+    
 
   
     System.out.println("Enter your play: "); 
@@ -63,5 +63,6 @@ public static void main(String[] args)
             System.out.println("Rock breaks scissors. You lose!!"); 
     else 
          System.out.println("Invalid user input."); 
+    }
 }
-}
+
